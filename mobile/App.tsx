@@ -9,7 +9,7 @@ export default function App() {
   const [fontsLoaded] = useFonts({
     Roboto_400Regular,
     Roboto_500Medium,
-    Ubuntu_700Bold
+    Ubuntu_700Bold,
   })
 
   if(!fontsLoaded){
