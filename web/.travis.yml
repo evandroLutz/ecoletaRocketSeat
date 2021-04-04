@@ -5,6 +5,10 @@ node_js:
 
 install:
   - yarn
-
+  
+ matrix:
+  include:
+    - env: PROJECT=web/
+    
 script:
   - yarn test
